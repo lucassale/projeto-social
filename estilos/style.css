@@ -38,6 +38,25 @@ section#telefone{
     background-repeat: no-repeat;
 }
 
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+section#redes img:hover{
+    border: 1px solid white;
+    box-sizing: border-box;
+    transform: translate(-5px, -5px);
+    transition: transform .5s, border .5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
 iframe#tela{
     position: relative;
     top: 80px;
